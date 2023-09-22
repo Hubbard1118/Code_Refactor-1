@@ -6,4 +6,4 @@ the newest technologies and features for ease-of-view and accesibility for the u
 
 The code was reviewed, edited, and streamlined to function the same as it did before. 
 
-Using the "Scout's Honor" principle, the application was also furnised with a few novel upgrades. 
+Using the "Scout's Honor" principle, the application was also furnished with a few novel upgrades. 
