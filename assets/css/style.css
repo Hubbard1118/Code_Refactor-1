@@ -1,13 +1,16 @@
+/* Global selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Elemental selector which sets page background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Class selector for header attributes*/
 .header {
     width: 100%;
     position: fixed;
@@ -17,11 +20,13 @@ body {
     color: #ffffff;
 }
 
+/*Class for title in header, 1st heading */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Class for nav element*/
 .header nav {
     padding: 15px;
     margin-right: 20px;
@@ -30,13 +35,14 @@ body {
     font-size: 20px;
 }
 
+/* Elemental selector for links in nav*/
 a {
     padding: 10px;
     color: #ffffff;
     text-decoration: underline
 }
 
-
+/* Class for background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -46,23 +52,25 @@ a {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Elemental selector for section*/
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* Class for images in section element*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
 
+/* Class for images in section element*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 
+/* Elemental selector for aside and its children*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -111,6 +119,7 @@ aside {
     font-size: 36px;
 }
 
+/* Class for footnote*/
 .footer {
     padding: 30px;
     clear: both;
